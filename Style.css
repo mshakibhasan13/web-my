@@ -1,0 +1,125 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+.font-color{
+    color: #ff458f;
+    font-weight:5000px;
+}
+section{
+    height: 550px;
+    padding-bottom: 200px;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.half-width img{
+    width: 100%;
+}
+.first-sec{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-second{
+background-image: url(images/biography-bg.png);
+}
+.header{
+    margin-top: 200px;
+}
+.button{
+    background-image: linear-gradient(180deg,#f883b2, #f30e6a);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.service-header{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.singlebox{
+    width: 31%;
+    float: left;
+    margin-left: 3px;
+    padding: 5px 5px 5px 5px;
+    
+}
+.singlebox img{
+    width: 100%;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.footer-text{
+text-align: center ;
+margin-top: 100px;
+}
+.footer-text h1{
+    color: rgb(233, 32, 32);
+    line-height: 100px;
+
+}
+.footer-text h3{
+    color: black;
+    line-height: 5px;
+
+
+}
+.footer-text h5{
+    color: rgb(19, 2, 2);
+
+}
+.footer-box span {
+    font-size: 12px;
+}
+.footer-box{
+    text-align: center;
+    margin-top: 100px;
+    background-image: linear-gradient(180deg,  #f883b2, #f30e6a );
+    width: 400px;
+    margin: auto;
+    padding: 45px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 55px;
+
+}
+.footer-box a{
+    color: white;
+    text-decoration: none;
+}
+.second-footer{
+    text-align: center;
+    padding-top: 270px;
+}
+.footer {
+    background-image: url(images/footer-bg.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    
+}
+.button:hover span {
+    padding-right: 25px;
+}
+  
